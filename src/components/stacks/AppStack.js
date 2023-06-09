@@ -26,7 +26,7 @@ export const AppStack = () => (
                 component={ShowScreen}
                 options={({ route }) => ({
                     title: route.params.title || route.params.name,
-                    headerBackTitle: "Back"
+                    headerBackTitle: "Back to List"
                 })}
             />
         </Stack.Navigator>
